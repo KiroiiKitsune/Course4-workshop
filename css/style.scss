@@ -12,6 +12,10 @@
   font-size: 16px;
 }
 
+body {
+  background-color: #191B1C;
+  }
+
 li {
   list-style-type: none;
 }
@@ -76,12 +80,12 @@ a {
     }
 
     &:hover {
-      background-color: #fff;
+      background-color: #151717;
       transition: 0.3s;
     }
 
     &:focus {
-      background-color: #fff;
+      background-color: #151717;
     }
 
     &:hover::placeholder {
@@ -286,7 +290,7 @@ a {
     font-weight: 500;
     font-size: 1.5rem;
     line-height: 29px;
-    color: #050505;
+    color:#F4F2EE;
     margin-right: 32px;
   }
 
@@ -336,7 +340,7 @@ a {
   }
 
   &__links {
-    color: #888888;
+    color: #A59B8F;
     font-size: 14px;
     line-height: 17px;
 
@@ -346,6 +350,7 @@ a {
   }
 
   &__menu-heading {
+    color: #F4F2EE;
     font-weight: 500;
     font-size: 1.5rem;
     line-height: 29px;
@@ -356,6 +361,7 @@ a {
   }
 
   &__contacts {
+    color: #F4F2EE;
     display: flex;
     flex-direction: column;
     gap: 12px;
@@ -388,8 +394,8 @@ a {
   }
 
   &__input-email {
-    color: black;
-    background: #FFFFFF;
+    color: #F4F2EE;
+    background: #151717;
     border: 1px solid $borderColorGrey;
     box-sizing: border-box;
     border-radius: 20px;
@@ -412,13 +418,14 @@ a {
     }
 
     &:hover::placeholder {
-      color: #000;
+      color: #F4F2EE;
     }
   }
 
   &__sign-in-button {
-    background: rgba(222, 215, 215, 0.41);
-    border: 1px solid #FFFFFF;
+    color-scheme: dark !important;
+    // background: rgba(222, 215, 215, 0.41);
+    border: 1px solid #7A7164;
     box-sizing: border-box;
     border-radius: 20px;
     text-align: center;
@@ -434,6 +441,7 @@ a {
   }
 
   &__get-news {
+    color: #F4F2EE;
     display: flex;
     gap: 12px;
     flex-direction: column;

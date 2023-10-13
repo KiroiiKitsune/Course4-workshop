@@ -116,7 +116,7 @@
 
 				</div>
 				<p class="cart-ordering-summ">Итого: 128 000 руб.</p>
-				<button class="cart-ordering-suggest">Оформить заказ</button>
+				<button class="cart-ordering-suggest" id="cart-ordering-suggest">Оформить заказ</button>
 			</div>
 
 
@@ -212,5 +212,16 @@
 		</div>
 
 	</footer>
+
+	<script>
+
+		document.getElementById('cart-ordering-suggest').addEventListener('click', () => {
+			alert ('Ваш заказ успешно оформлен')
+		}
+		
+		)
+
+
+	</script>
 </body>
 </html>
